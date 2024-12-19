@@ -135,7 +135,7 @@ table td {
 }
 
 .hero-image, .content-image {
-    width: 80%;
+    width: 50%;
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
