@@ -3,59 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2WHYKFZ1GW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2WHYKFZ1GW');
-</script>
-<link rel="stylesheet" href="css/style.css">
-
-    <title>The Art of Graphic Design</title>
-	
+    <title>What is Graphic Design?</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
     <header>
-        <h2>Graphic Design</h2>
+        <h1>What is Graphic Design?</h1>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="gallery.html">Gallery</a>
             <a href="feedback.html">Feedback</a>
         </nav>
     </header>
 
-    <div class="hero">
-        <h1>What is Graphic Design?</h1>
-        <p>Graphic design is a form of visual communication that combines images, typography, and creative ideas to convey a message. It is used in branding, advertising, web design, print media, and more.</p>
-    </div>
+    <main>
+        <section class="hero">
+            <img src="images/graphic-design-banner.jpg" alt="Graphic Design Banner" class="hero-image">
+            <h2>Welcome to the World of Graphic Design</h2>
+            <p>Discover the essentials of graphic design and the tools that bring creativity to life.</p>
+        </section>
 
-    <div class="content">
-        <div class="section">
-            <h2>Foundational Principles</h2>
-            <p>Graphic design relies on principles like contrast, alignment, and proportion to create balance and harmony. These principles guide the viewer's focus and help deliver the intended message effectively.</p>
-        </div>
+        <section class="content">
+            <article>
+                <h2>What is Graphic Design?</h2>
+                <img src="images/what-is-graphic-design.jpg" alt="What is Graphic Design" class="content-image">
+                <p>Graphic design is a form of visual communication that combines images, typography, and creative ideas to convey a message. It is used in branding, advertising, web design, print media, and more. A graphic designer’s role is to turn concepts into engaging visual content that communicates clearly and effectively.</p>
+                <p>Graphic design relies on foundational principles to create balance and harmony within a piece. Key principles include contrast, alignment, and proportion, which help the viewer focus on the intended message. Understanding and applying these principles is essential for a professional graphic designer to create aesthetically pleasing designs.</p>
+            </article>
 
-        <div class="section">
-            <h2>Essential Tools for Designers</h2>
-            <p>Today, technology plays a vital role in graphic design. Tools like Adobe Photoshop, Illustrator, and Figma are industry standards for creating stunning visuals. Choosing the right tool depends on your goals and expertise.</p>
-        </div>
-    </div>
-	<script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        });
+            <article>
+                <h2>Essential Tools for Graphic Designers</h2>
+                <img src="images/design-tools.jpg" alt="Essential Design Tools" class="content-image">
+                <p>In today’s world, technology plays a vital role in graphic design. Software tools like Adobe Photoshop, Illustrator, and Figma are commonly used for creating and editing digital designs. Selecting the right tool depends on your design goals and comfort with the software.</p>
 
-        document.querySelectorAll('.scroll-effect').forEach(el => {
-            observer.observe(el);
-        });
-    </script>
+                <table>
+                    <caption>Comparison of Popular Design Tools</caption>
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Primary Use</th>
+                            <th>Price Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adobe Photoshop</td>
+                            <td>Image Editing</td>
+                            <td>$20 - $50/month</td>
+                        </tr>
+                        <tr>
+                            <td>Adobe Illustrator</td>
+                            <td>Vector Graphics</td>
+                            <td>$20 - $50/month</td>
+                        </tr>
+                        <tr>
+                            <td>Figma</td>
+                            <td>UI/UX Design</td>
+                            <td>Free - $45/month</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+
 </body>
 </html>
-	
