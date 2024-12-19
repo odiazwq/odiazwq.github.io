@@ -43,6 +43,19 @@
             <p>Today, technology plays a vital role in graphic design. Tools like Adobe Photoshop, Illustrator, and Figma are industry standards for creating stunning visuals. Choosing the right tool depends on your goals and expertise.</p>
         </div>
     </div>
+	<script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+
+        document.querySelectorAll('.scroll-effect').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
 	
