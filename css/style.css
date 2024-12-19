@@ -134,10 +134,18 @@ table td {
     vertical-align: middle;
 }
 
-img {
-    max-width: 100%;
+.hero-image, .content-image {
+    width: 80%;
+    max-width: 1200px;
     height: auto;
-    display: block;
     margin: 0 auto;
+    display: block;
 }
 
+
+@media (max-width: 768px) {
+    .hero-image, .content-image {
+        width: 100%;
+        max-width: 100%;
+    }
+}
