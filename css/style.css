@@ -181,23 +181,16 @@ table td {
     }
 }
 
-
-ol {
-    margin: 10px 0;
-    padding-left: 20px;
+.content {
+    text-align: center; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
 }
 
-ol li {
-    margin-bottom: 8px; 
-}
-
-
-ul {
-    margin: 10px 0;
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 8px;
-    list-style-type: disc; 
+.content ol {
+    text-align: left;
+    margin: 20px auto;
+    padding-left: 40px;
 }
